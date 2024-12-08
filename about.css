@@ -129,7 +129,7 @@ header nav ul li a:hover {
 
 .team-member:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 28px 20px rgba(38, 37, 37, 0.2);
 }
 
 .team-member img {
@@ -173,5 +173,12 @@ header nav ul li a:hover {
     min-width: 100%;
     min-height: 100%;
   }
+  .team a{
+    color: #e8e2e2;
+    font-size: 30px;
+  }
+.team a:hover{
+    color: rgb(106, 147, 106);
+}
   
  
