@@ -10,7 +10,8 @@
 }
 
 /* Global Styles */
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
@@ -32,9 +33,11 @@ header.navbar {
     align-items: center;
     justify-content: flex-start;
     padding: 0 20px;
-    background: rgba(51, 51, 51, 0.9); /* Slight transparency for navbar */
+    background: rgba(51, 51, 51, 0.9);
+    /* Slight transparency for navbar */
     color: var(--secondary);
-    z-index: 10; /* Ensures navbar is above video */
+    z-index: 10;
+    /* Ensures navbar is above video */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -43,7 +46,7 @@ header .logo {
     font-weight: bold;
     color: var(--primary);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    
+
 }
 
 header nav ul {
@@ -75,13 +78,15 @@ header nav ul li a:hover {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Send the video to the background */
+    z-index: -1;
+    /* Send the video to the background */
 }
 
 #bg-video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the video scales properly */
+    object-fit: cover;
+    /* Ensures the video scales properly */
 }
 
 /* Overlay for Better Readability */
@@ -89,8 +94,10 @@ header nav ul li a:hover {
     position: relative;
     text-align: center;
     color: #fff;
-    z-index: 1; /* Ensures content appears above the video */
-    padding: 80px 20px; /* Ensures content is not hidden under navbar */
+    z-index: 1;
+    /* Ensures content appears above the video */
+    padding: 80px 20px;
+    /* Ensures content is not hidden under navbar */
 }
 
 .video-overlay h1 {
@@ -112,7 +119,7 @@ header nav ul li a:hover {
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
-    
+
 }
 
 .team-member {
@@ -166,19 +173,20 @@ header nav ul li a:hover {
         font-size: 1.2rem;
     }
 }
+
 #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }
-  .team a{
+}
+
+.team a {
     color: #e8e2e2;
     font-size: 30px;
-  }
-.team a:hover{
+}
+
+.team a:hover {
     color: rgb(106, 147, 106);
 }
-  
- 
