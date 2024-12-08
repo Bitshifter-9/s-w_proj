@@ -194,6 +194,7 @@ header .nav-links li a:focus {
 }
 .footer {
     color: #fff; padding: 20px; text-align: center;
+    margin-top: 100px;
 }
 
 .footer-content {
