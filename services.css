@@ -192,3 +192,26 @@ header .nav-links li a:focus {
     text-decoration: underline;
     color: #f4ce14;
 }
+.footer {
+    color: #fff; padding: 20px; text-align: center;
+}
+
+.footer-content {
+    display: flex; justify-content: space-between; flex-wrap: wrap; max-width: 1200px; margin: auto;
+}
+
+.footer-content div {
+    flex: 1; margin: 10px; min-width: 200px;
+}
+
+h3 {
+    border-bottom: 2px solid #555; padding-bottom: 5px; margin-bottom: 10px; font-size: 1.1rem;
+}
+
+ul { list-style: none; padding: 0; }
+
+ul li { margin: 5px 0; }
+
+a { color: #fff; text-decoration: none; transition: color 0.3s; }
+
+a:hover { color: #b7d24a; }
