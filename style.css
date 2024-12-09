@@ -233,11 +233,12 @@ main {
     overflow: hidden;
     margin: 20px;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    height: 201px;
 } 
 
 .card image{
-    width: 100%;
-    height: auto;
+    object-fit:fill;
+
 }
 .card-content{
     padding: 16px;
