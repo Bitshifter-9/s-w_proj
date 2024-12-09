@@ -300,11 +300,13 @@ a:hover { color: #00bcd4; }
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding: 10px;
     font-size: 1.5rem; /* Adjust font size as needed */
     color: #333;
     border: 2px solid #ddd; /* Subtle border for a cloud effect */
     margin-bottom: 30px;
+    margin-left: 80px;
 }
 main{
     margin-bottom: 50px;
