@@ -43,6 +43,7 @@ header .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--tetriary);
+    
 }
 
 header nav {
@@ -307,7 +308,32 @@ a:hover { color: #00bcd4; }
     border: 2px solid #ddd; /* Subtle border for a cloud effect */
     margin-bottom: 30px;
     margin-left: 80px;
+ 
+ 
+   
+    background: linear-gradient(45deg, #fdd509, #AF752A, black);
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite;
+  }
+
 }
 main{
     margin-bottom: 50px;
 }
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .content {
+    z-index: 1;
+    text-align: center;
+  }
+
