@@ -51,7 +51,8 @@ Educational Resources:
 <br>
 Collaboration Features:
 <br>
-*Share schedules and tasks with team members.
+*Share schedules and tasks with team members. 
+<br>
 <br>
 *Assign roles and track group progress.
 <br>
