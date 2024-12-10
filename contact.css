@@ -14,11 +14,15 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background: var(--secondary);
+    font-family: 'Arial', sans-serif;
     color: var(--fouthcolor);
+    background: var(--secondary);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    height: 100%;
 }
 
+/* Navbar Styles */
 header.navbar {
     position: fixed;
     top: 0;
@@ -27,64 +31,43 @@ header.navbar {
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 0 20px;
-    background: var(--fouthcolor);
+    background: black;
+    /* Slight transparency for navbar */
     color: var(--secondary);
-    z-index: 100;
-    transition: background var(--transition-speed);
+    z-index: 10;
+    /* Ensures navbar is above video */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-header.navbar.scrolled {
-    background: var(--navbar-bg-scrolled);
-    color: var(--primary);
 }
 
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
 }
 
-header nav {
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-start;
-    margin-left: 100px;
-    margin-right: 20px;
-    padding-right: 20px;
-}
-
-header .nav-links {
+header nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-right: 10px;
+    margin-left: 100px;
 }
 
-header .nav-links li {
-    position: relative;
-}
-
-header .nav-links li a {
+header nav ul li a {
     text-decoration: none;
     color: var(--secondary);
     font-weight: bold;
     padding: 10px 15px;
-    transition: color var(--transition-speed); background:var(--transition-speed); transform :var(--transition-speed);
     border-radius: 5px;
+    transition: all var(--transition-speed);
 }
 
-header .nav-links li a:hover,
-header .nav-links li a:active {
+header nav ul li a:hover {
     background: var(--hover-bg);
-    color: var(--tetriary);
-    transform: scale(1.1);
-}
-
-header .nav-links li a:focus {
-    outline: 2px solid var(--primary);
+    color: var(--primary);
 }
 /* Root Variables */
 :root {
