@@ -71,11 +71,11 @@ header nav ul li a:hover {
 }
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
-    font-weight: 700; /* Bold for better emphasis */
-    color: #222; /* Dark color for professional look */
-    letter-spacing: 1px; /* Adds slight spacing between letters for readability */
+    font-weight: 700; 
+    color: #222; 
+    letter-spacing: 1px;
     margin: 20px 0;
-    text-align: center; /* Centers the headings */
+    text-align: center; 
 }
 
 section h1 {
