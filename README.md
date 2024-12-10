@@ -46,13 +46,13 @@ Productivity Tools:
 Educational Resources:
 <br>
 * Time management courses and tutorials.
+<br>
 * Blogs, articles, and tips for effective time management.
 <br>
 <br>
 Collaboration Features:
 <br>
 *Share schedules and tasks with team members. 
-<br>
 <br>
 *Assign roles and track group progress.
 <br>
