@@ -1,4 +1,4 @@
-/* Root Variables */
+
 :root {
     --primary: #f4ce14;
     --secondary: #f5f7f8;
@@ -9,7 +9,7 @@
     --overlay-bg: rgba(0, 0, 0, 0.6);
 }
 
-/* Global Styles */
+
 body,
 html {
     margin: 0;
@@ -22,7 +22,7 @@ html {
     height: 100%;
 }
 
-/* Navbar Styles */
+
 header.navbar {
     position: fixed;
     top: 0;
@@ -34,10 +34,10 @@ header.navbar {
     justify-content: flex-start;
     padding: 0 20px;
     background: black;
-    /* Slight transparency for navbar */
+    
     color: var(--secondary);
     z-index: 10;
-    /* Ensures navbar is above video */
+    
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
