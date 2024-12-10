@@ -1,7 +1,7 @@
-// Select the navbar
+
 const navbar = document.querySelector('.navbar');
 
-// Add a scroll event listener
+
 window.addEventListener('scroll', () => {
     const videoHeight = document.querySelector('.video-section').offsetHeight;
 
