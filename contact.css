@@ -6,7 +6,7 @@
     --navbar-bg: transparent;
     --navbar-bg-scrolled: var(--fouthcolor);
     --hover-bg: rgba(244, 206, 20, 0.2);
-    /* Slight transparent yellow for hover effect; */
+    
     --transition-speed: 0.3s;
 }
 
@@ -22,7 +22,7 @@ html {
     height: 100%;
 }
 
-/* Navbar Styles */
+
 header.navbar {
     position: fixed;
     top: 0;
@@ -34,7 +34,7 @@ header.navbar {
     justify-content: flex-start;
     padding: 0 20px;
     background: black;
-    /* Slight transparency for navbar */
+    
     color: var(--secondary);
     z-index: 10;
     /* Ensures navbar is above video */
