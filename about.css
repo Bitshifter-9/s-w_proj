@@ -20,7 +20,6 @@ html {
     height: 100%;
 }
 
-/* Navbar Styles */
 header.navbar {
     position: fixed;
     top: 0;
@@ -32,10 +31,8 @@ header.navbar {
     justify-content: flex-start;
     padding: 0 20px;
     background: black;
-    /* Slight transparency for navbar */
     color: var(--secondary);
     z-index: 10;
-    /* Ensures navbar is above video */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -157,7 +154,6 @@ header nav ul li a:hover {
     line-height: 1.5;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .team {
         flex-direction: column;
